@@ -1,6 +1,6 @@
 {
     "name": "currency-code-symbol-map",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Utility functions to map currency code to symbol and vice versa",
     "author": "Siraj Alam",
     "license": "MIT",
