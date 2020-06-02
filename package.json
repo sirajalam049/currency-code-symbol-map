@@ -4,12 +4,12 @@
     "description": "Utility functions to map currency code to symbol and vice versa",
     "author": "Siraj Alam",
     "license": "MIT",
-    "main": "./dist/index.js",
+    "main": "./lib/index.js",
     "_location": "/currency-code-symbol-map",
-    "types": "./dist/index.d.ts",
+    "types": "./lib/index.d.ts",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "rm -rf dist && tsc",
+        "build": "rm -rf lib && tsc",
         "changelog": "node ./scripts/changelog.js"
     },
     "repository": {

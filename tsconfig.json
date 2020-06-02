@@ -10,7 +10,7 @@
             "esnext"
         ],
         "declaration": true,
-        "outDir": "dist", 
+        "outDir": "lib", 
         "noImplicitAny": true,
         "skipLibCheck": true,
         "esModuleInterop": true,

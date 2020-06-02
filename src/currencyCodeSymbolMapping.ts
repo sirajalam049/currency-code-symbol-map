@@ -175,4 +175,4 @@ export const currencyCodeSymbolMapping = {
 	'ZWD': 'Z$',
 }
 
-export type CurrencySymbol = keyof typeof currencyCodeSymbolMapping;
+export type CurrencyCode = keyof typeof currencyCodeSymbolMapping;
