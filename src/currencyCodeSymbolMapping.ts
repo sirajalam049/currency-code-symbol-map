@@ -20,7 +20,7 @@ export const currencyCodeSymbolMapping = {
 	'BOB': '$b',
 	'BRL': 'R$',
 	'BSD': '$',
-	'BTC': '฿',
+	'BTC': '₿',
 	'BTN': 'Nu.',
 	'BWP': 'P',
 	'BYR': 'Br',
@@ -116,7 +116,7 @@ export const currencyCodeSymbolMapping = {
 	'NZD': '$',
 	'OMR': '﷼',
 	'PAB': 'B/.',
-	'PEN': 'S/.',
+	'PEN': 'S/',
 	'PGK': 'K',
 	'PHP': '₱',
 	'PKR': '₨',
@@ -133,7 +133,7 @@ export const currencyCodeSymbolMapping = {
 	'SCR': '₨',
 	'SDG': 'ج.س.',
 	'SEK': 'kr',
-	'SGD': '$',
+	'SGD': 'S$',
 	'SHP': '£',
 	'SLL': 'Le',
 	'SOS': 'S',
@@ -159,7 +159,7 @@ export const currencyCodeSymbolMapping = {
 	'UGX': 'USh',
 	'USD': '$',
 	'UYU': '$U',
-	'UZS': 'лв',
+	'UZS': 'so\'m',
 	'VEF': 'Bs',
 	'VND': '₫',
 	'VUV': 'VT',
@@ -171,7 +171,8 @@ export const currencyCodeSymbolMapping = {
 	'XPF': '₣',
 	'YER': '﷼',
 	'ZAR': 'R',
-	'ZWD': 'Z$'
+	'ZMK': 'ZK',
+	'ZWD': 'Z$',
 }
 
 export type CurrencySymbol = keyof typeof currencyCodeSymbolMapping;
